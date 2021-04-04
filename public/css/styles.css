@@ -1,0 +1,37 @@
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+footer {
+  background-color: #eeeeee;
+  padding: 16px;
+  margin-top: 16px;
+  border-top: 1px solid black;
+}
+h1 {
+  font-size: 64px;
+  font-family: "Courier New", Courier, monospace;
+}
+header a {
+  color: #888888;
+  text-decoration: none;
+  margin-right: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif1;
+}
+img {
+  width: auto;
+}
